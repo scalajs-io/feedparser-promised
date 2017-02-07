@@ -1,0 +1,9 @@
+{
+  "name": "feedparser-promised-scalajs",
+  "version": "0.3.1",
+  "private": true,
+  "dependencies": {
+    "feedparser-promised": "^1.1.1",
+    "source-map": "^0.5.6"
+  }
+}
