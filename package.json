@@ -1,6 +1,6 @@
 {
-  "name": "feedparser-promised-scalajs",
-  "version": "0.3.1",
+  "name": "feedparser-promised-sjs",
+  "version": "1.1.1",
   "private": true,
   "dependencies": {
     "feedparser-promised": "^1.1.1",

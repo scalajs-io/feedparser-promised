@@ -1,21 +1,23 @@
-Feedparser-promised API for Scala.js
+FeedParserPromised API for Scala.js
 ================================
-This is a Scala.js type-safe binding for [Feedparser-promised](https://www.npmjs.com/package/feedparser-promised)
+[feedparser-promised](https://www.npmjs.com/package/feedparser-promised) - Wrapper around [feedparser](https://www.npmjs.com/package/feedparser) with promises.
+
+### Description
 
 Wrapper around [feedparser](https://www.npmjs.com/package/feedparser) with promises.
 
-#### Build Dependencies
+### Build Dependencies
 
-* [ScalaJs.io v0.3.x](https://github.com/ldaniels528/scalajs.io)
+* [ScalaJs.io v0.3.x](https://github.com/scalajs-io/scalajs.io)
 * [SBT v0.13.13](http://www.scala-sbt.org/download.html)
 
-#### Build/publish the SDK locally
+### Build/publish the SDK locally
 
 ```bash
  $ sbt clean publish-local
 ```
 
-#### Running the tests
+### Running the tests
 
 Before running the tests the first time, you must ensure the npm packages are installed:
 
@@ -29,7 +31,7 @@ Then you can run the tests:
 $ sbt test
 ```
 
-#### Examples
+### Examples
 
 ```scala
 import io.scalajs.npm.feedparser._
@@ -297,12 +299,12 @@ title: 002 JSJ The Right Way to Build Web Applications
 title: 001 JSJ Asynchronous Programming
 ```
 
-#### Artifacts and Resolvers
+### Artifacts and Resolvers
 
-To add the Moment binding to your project, add the following to your build.sbt:  
+To add the `FeedParserPromised` binding to your project, add the following to your build.sbt:  
 
 ```sbt
-libraryDependencies += "io.scalajs.npm" %%% "feedparser-promised" % "0.3.0.3"
+libraryDependencies += "io.scalajs.npm" %%% "feedparser-promised" % "1.1.1"
 ```
 
 Optionally, you may add the Sonatype Repository resolver:
