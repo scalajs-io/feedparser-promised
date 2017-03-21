@@ -304,7 +304,7 @@ title: 001 JSJ Asynchronous Programming
 To add the `FeedParserPromised` binding to your project, add the following to your build.sbt:  
 
 ```sbt
-libraryDependencies += "io.scalajs.npm" %%% "feedparser-promised" % "1.1.1-3"
+libraryDependencies += "io.scalajs.npm" %%% "feedparser-promised" % "1.1.1-4"
 ```
 
 Optionally, you may add the Sonatype Repository resolver:
