@@ -1,6 +1,6 @@
 {
   "name": "feedparser-promised-sjs",
-  "version": "1.1.1-4",
+  "version": "0.4.0-pre1",
   "private": true,
   "dependencies": {
     "feedparser-promised": "^1.1.1",
