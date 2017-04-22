@@ -35,7 +35,8 @@ $ sbt test
 
 ```scala
 import io.scalajs.npm.feedparser._
-import io.scalajs.util.ScalaJsHelper._
+import io.scalajs.util.PromiseHelper.Implicits._
+import scala.scalajs.concurrent.JSExecutionContext.Implicits.queue
 
 val url = "http://feeds.feedwrench.com/JavaScriptJabber.rss"
 for {
@@ -304,7 +305,7 @@ title: 001 JSJ Asynchronous Programming
 To add the `FeedParserPromised` binding to your project, add the following to your build.sbt:  
 
 ```sbt
-libraryDependencies += "io.scalajs.npm" %%% "feedparser-promised" % "0.4.0-pre4"
+libraryDependencies += "io.scalajs.npm" %%% "feedparser-promised" % "0.4.0-pre5"
 ```
 
 Optionally, you may add the Sonatype Repository resolver:

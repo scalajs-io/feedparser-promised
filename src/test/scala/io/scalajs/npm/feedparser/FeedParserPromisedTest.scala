@@ -1,6 +1,6 @@
 package io.scalajs.npm.feedparser
 
-import io.scalajs.util.PromiseHelper._
+import io.scalajs.util.PromiseHelper.Implicits._
 import org.scalatest.FunSpec
 
 import scala.scalajs.concurrent.JSExecutionContext.Implicits.queue
