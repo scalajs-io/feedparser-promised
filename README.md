@@ -9,7 +9,7 @@ Wrapper around [feedparser](https://www.npmjs.com/package/feedparser) with promi
 ### Build Dependencies
 
 
-* [SBT v0.13.13](http://www.scala-sbt.org/download.html)
+* [SBT v0.13.16](http://www.scala-sbt.org/download.html)
 
 ### Build/publish the SDK locally
 
@@ -305,7 +305,7 @@ title: 001 JSJ Asynchronous Programming
 To add the `FeedParserPromised` binding to your project, add the following to your build.sbt:  
 
 ```sbt
-libraryDependencies += "io.scalajs.npm" %%% "feedparser-promised" % "0.4.0"
+libraryDependencies += "io.scalajs.npm" %%% "feedparser-promised" % "0.4.1"
 ```
 
 Optionally, you may add the Sonatype Repository resolver:
